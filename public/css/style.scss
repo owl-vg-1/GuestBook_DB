@@ -1,0 +1,82 @@
+// @import url('https://fonts.googleapis.com/css?family=Kelly+Slab|Luckiest+Guy|Roboto+Slab');
+
+// body {
+//     background-color: aqua;
+//     color: red;
+//     h1 {
+//         font-family: 'Roboto Slab', serif;
+//     }
+// }
+
+// #maincontent {
+//     display: flex;
+//     justify-content: center;
+// }
+
+// .formPosition {
+//     margin-top: 50vh;
+//     transform: translateY(-50%);
+// }
+
+// .user_name {
+//     color: red;
+//     text-align: right;
+//     margin-right: 20px;
+// }
+
+// .feedBackForm {
+//     display: flex;
+//     flex-direction: column;
+//     input,
+//     textarea {
+//         font-family: 'Roboto Slab', serif;
+//         color: #666666;
+//         border-radius: 5px;
+//         border: 2px solid #C4C4C4;
+//         font-size: 0.9em;
+//         width: 300px;
+//         padding: 5px 0.5%;
+
+//         &:hover,
+//         &:focus {
+//             border: 2px solid #6DC11A;
+//         }
+//     }
+
+//     textarea {
+//         resize: vertical;
+//         min-height: 170px;
+//     }
+
+//     .feedBackButton {
+//         font-family: 'Roboto Slab', serif;
+//         color: white;
+//         border-radius: 5px;
+//         border-bottom: 5px solid #2B8F16;
+//         font-size: 0.9em;
+//         width: 100px;
+//         padding: 5px 0;
+//         background-color: #6DC11A;
+//         cursor: pointer;
+
+//         &:hover {
+//             border-bottom: 3px solid #2B8F16;
+//         }
+//     }
+
+//     select {
+//         font-family: 'Roboto Slab', serif;
+//         color: #666666;
+//         width: 45px;
+//         border-radius: 5px;
+//         margin-bottom: 20px;
+//         border: 2px solid #C4C4C4;
+//         font-size: 0.9em;
+//         padding: 2px 5px;
+
+//         &:hover,
+//         &:focus {
+//             border: 2px solid #6DC11A;
+//         } 
+//     }
+// }

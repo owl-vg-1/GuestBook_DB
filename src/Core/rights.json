@@ -1,0 +1,13 @@
+{
+    "admin": [
+        "Auth",
+        "FeedBackAdmin",
+        "FeedBack",
+        "Site"
+    ],
+    "default": [
+        "Auth",
+        "FeedBack",
+        "Site"
+    ]
+}
