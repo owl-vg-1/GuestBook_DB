@@ -13,5 +13,3 @@ interface StorageInterface {
     public function add(array $array);
 
 }
-
-?>

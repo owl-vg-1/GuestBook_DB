@@ -2,24 +2,42 @@
 
 namespace App\Model\DataStorage;
 
-class MySQLStorage extends CrudEntity
+use mysqli;
+
+class MysqlStorage implements StorageInterface
 {
 
-    function get()
+    private $db_entity;
+
+    function __construct()
     {
 
-        parent::get();
-        return include($this->file_name);
+        $this->db_entity = new DB_entity(new mysqli('localhost', 'root', '', 'feedback_db'), 'feedback');
+        // $this->edit(4, [123, 456]);
+    }
+
+    public function get()
+    { 
+        $res = [];
+        foreach ($this->db_entity->query() as $value) {
+            $res[$value['id']] = json_decode($value['data']);
+        }
+        return $res;
 
     }
 
-    function write_file(array $data_array)
+    public function del(int $id)
     {
-
-        file_put_contents($this->file_name, '<?php return '.var_export($data_array, true).';');
-
+        $this->db_entity->delete($id);
     }
 
+    public function edit(int $id, array $array)
+    {
+        $this->db_entity->edit($id, ['data' => json_encode($array)]);
+    }
+
+    public function add(array $array)
+    {
+        $this->db_entity->add(['data' => json_encode($array)]);
+    }
 }
-
-?>

@@ -12,11 +12,11 @@
     <textarea class="m-2 bg-success w-100" name="message" cols="30" rows="10">Enter your message</textarea><br>
 
     <select class="m-2 bg-success w-100"  name="mark">
-        <option value=”1”>1</option>
-        <option value=”2”>2</option>
-        <option value=”3”>3</option>
-        <option value=”4”>4</option>
-        <option value=”5”>5</option>
+        <option value='1'>1</option>
+        <option value='2'>2</option>
+        <option value='3'>3</option>
+        <option value='4'>4</option>
+        <option value='5'>5</option>
     </select></br>
     <div class="d-flex justify-content-center">
     <input class="m-2 bg-success w-50" type="submit" value="send" class="feedBackButton">
