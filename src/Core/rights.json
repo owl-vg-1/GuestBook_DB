@@ -3,11 +3,13 @@
         "Auth",
         "FeedBackAdmin",
         "FeedBack",
+        "Registration",
         "Site"
     ],
     "default": [
         "Auth",
         "FeedBack",
+        "Registration",
         "Site"
     ]
 }

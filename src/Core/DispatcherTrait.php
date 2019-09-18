@@ -13,6 +13,7 @@ trait DispatcherTrait
         'dashboard' => 'FeedBackAdmin/Show',
         'del{id}' => 'FeedbackAdmin/DelRow',
         'thanks' => 'Feedback/thanks',
+        'registration' => 'Registration/ShowForm',
 
 
         // '' => 'Error/',

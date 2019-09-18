@@ -13,7 +13,6 @@ class MysqlStorage implements StorageInterface
     {
 
         $this->db_entity = new DB_entity(new mysqli('localhost', 'root', '', 'feedback_db'), 'feedback');
-        // $this->edit(4, [123, 456]);
     }
 
     public function get()

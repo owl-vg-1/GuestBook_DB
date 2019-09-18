@@ -26,6 +26,11 @@
 
 </div>
 </div>
-<div class="d-flex flex-row-reverse fixed-top">
-    <a class="btn btn-dark" href='/login'>Login</a>
+<div class="fixed-top">
+    <div class="row d-flex justify-content-end p-1">
+        <a class="btn btn-dark m-1" href='/login'>Login</a>
+    </div>
+    <div class="row d-flex justify-content-end p-1">
+        <a class="btn btn-dark m-1" href='/registration'>Registration</a>
+    </div>
 </div>
